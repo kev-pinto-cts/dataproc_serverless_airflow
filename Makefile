@@ -1,7 +1,7 @@
 # Change these 3 Vars
-PROJECT_ID ?= kev-pinto-sandbox
-REGION ?= europe-west2
-DAG_BUCKET ?= europe-west2-kevs-15e72e6f-bucket
+PROJECT_ID ?= <CHANGEME>
+REGION ?= <CHANGEME>
+DAG_BUCKET ?= <CHANGEME>
 
 # Do not Alter
 PROJECT_NUMBER ?= $$(gcloud projects list --filter="project_id:${PROJECT_ID}" --format="value(PROJECT_NUMBER)")

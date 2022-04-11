@@ -39,7 +39,7 @@
 ```
 
 ### Setup the Example in GCP (Run Once Only)
-Edit the `Makefile` and change the following 2 params
+Edit the `Makefile` and change the following params:
 ```shell
 PROJECT_ID ?= <CHANGEME>
 REGION ?= <CHANGEME>
@@ -67,6 +67,12 @@ This will create the following:
 ```shell
 make build
 ```
+
+### Edit the DAG
+- Edit file `event_based_dataproc_serverless_pipeline.py` under the `dags` folder
+- Set values for the following vars (Line 27,28)
+  - PROJECT_NUMBER = ''
+  - REGION = ''
 
 ### Deploy Dag to cloud composer
 ```shell

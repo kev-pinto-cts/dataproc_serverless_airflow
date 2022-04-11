@@ -24,8 +24,8 @@ default_args = {
     'retries': 0
 }
 
-PROJECT_NUMBER = '1056414501493'
-REGION = 'europe-west2'
+PROJECT_NUMBER = <CHANGEME>
+REGION = <CHANGEME>
 
 PREFIX = 'stocks'
 DATASET = 'serverless_spark_airflow_demo'
