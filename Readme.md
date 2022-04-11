@@ -1,4 +1,4 @@
-# Packaging and Running a PySpark Job On Google's Serverless Spark Service
+# Integrating Dataproc Serverless with Airflow
 
 ### Pre-reqs
 * Install [Python Poetry](https://python-poetry.org/docs/)
